@@ -1,0 +1,101 @@
+/* 
+    Fytness - Fitness App
+	Style Sheet
+    Author: Garrison Donnelly
+    Date:   12/7/2021
+
+    Filename: main.css
+*/
+
+html, body, main, .container, .container_fluid{
+    min-height: 100vh;
+    position: relative;
+}
+
+.card {
+    border-radius: .5rem;
+}
+
+body {
+    background: linear-gradient(165deg, #dc143c 26%, #f1617e 31%, #f7a9b9 35%,#fef1f4 41%, #ffffff 45%, #fef1f4 46%, #f7a9b9 62%, #f1617e 72%, #dc143c 84%);
+}
+
+/*Landing Page*/
+#masthead {
+    padding: 3rem; 
+    background: linear-gradient(165deg, #dc143c 4%, #f1617e 16%, #f7a9b9 27%,#fef1f4 38%, #ffffff 45%);
+}
+
+#landing {
+    font-size:1.5rem;
+}
+
+#landingHeader {
+    height: 100px;
+}
+
+#landingHeading {
+    border-bottom: white 1px solid;
+    color: white; 
+}
+
+/*Customize buttons to match the app's color scheme*/
+.btn-primary {
+    background-color: #dc143c;
+    border-color: #dc143c; 
+}
+
+.btn-primary:hover{
+    background-color: #b81132;
+    border-color: #dc143c; 
+}
+
+.btn-primary:focus{
+    background-color: #b81132;
+    border-color: #dc143c; 
+    box-shadow: 0 0 0 0.25rem #b81132;
+}
+
+.btn-primary:active{
+    background-color: #dc143c;
+    border-color: #dc143c; 
+    
+}
+
+.btn-outline-primary {
+    color: #dc143c;
+    border-color: #dc143c;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    border-color: #dc143c;
+    background-color: #dc143c;
+}
+
+.btn-outline-primary:active {
+    color: #ffffff;
+    border-color: #dc143c;
+    background-color: #dc143c;
+}
+
+.footer {
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+#cardForm {
+    background-color: #f8f9fa;
+    margin-top: 5rem;
+}
+
+.row-bot {
+    border-bottom: 1px solid #9c9c9c;
+}
+
+/*error font color */
+.error{
+    color: #dc143c;
+}
